@@ -85,7 +85,7 @@ const Demo = () => {
         article.summary && (
           <div className='flex flex-col gap-3 items-center my-8'>
            <h2 className='font-bold text-slate-950 text-xl'>Article <span className='text-orange-800'>Sumamry</span></h2>
-           <div className='w-3/4 text-slate-950 rounded-xl'><p className='text-slate-950'>{article.summary}</p></div>
+           <div className='w-3/4 text-slate-950 rounded-xl'><p className='text-base text-black font-serif'>{article.summary}</p></div>
           </div>
         )
       )
